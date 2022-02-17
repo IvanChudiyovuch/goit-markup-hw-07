@@ -8,4 +8,9 @@
   letter-spacing: 0.03em;
   text-decoration: none;
   color: var(--accent-color);
+
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+  }
 }

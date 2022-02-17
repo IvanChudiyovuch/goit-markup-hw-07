@@ -13,19 +13,19 @@
   color: var(--main-color);
 }
 
-.occupation__list {
+.occupation-list {
   display: flex;
 }
 
-.occupation__item:not(:last-child) {
+.occupation-list__item:not(:last-child) {
   margin-right: var(--card-list-gap);
 }
 
-.ocupation__thumb {
+.occupation-list__thumb {
   position: relative;
 }
 
-.occupation__text {
+.occupation-list__text {
   position: absolute;
   bottom: 0;
   left: 0;
