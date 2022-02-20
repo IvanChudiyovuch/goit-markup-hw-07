@@ -14,3 +14,26 @@
     color: var(--accent-color);
   }
 }
+
+.logo__dark {
+  transition: var(--main-transition);
+  color: #000000;
+
+  text-decoration: none;
+
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+  }
+}
+
+.logo__white {
+  transition: var(--main-transition);
+
+  color: #ffffff;
+
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+  }
+}

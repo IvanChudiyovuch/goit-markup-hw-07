@@ -1,31 +1,20 @@
-.occupation {
+.section--not-padding-top {
   padding-top: 0;
 }
 
-.occupation__title {
-  margin-bottom: 50px;
-
-  font-weight: 700;
-  font-size: 36px;
-  line-height: calc(42 / 36);
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: var(--main-color);
-}
-
-.occupation-list {
+.occupation {
   display: flex;
 }
 
-.occupation-list__item:not(:last-child) {
+.occupation__item:not(:last-child) {
   margin-right: var(--card-list-gap);
 }
 
-.occupation-list__thumb {
+.occupation__thumb {
   position: relative;
 }
 
-.occupation-list__text {
+.occupation__text {
   position: absolute;
   bottom: 0;
   left: 0;

@@ -1,11 +1,11 @@
-.work-list {
+.work {
   display: flex;
   flex-wrap: wrap;
   margin-top: calc(-1 * var(--card-list-gap));
   margin-right: calc(-1 * var(--card-list-gap));
 }
 
-.work-list__item {
+.work__item {
   flex-basis: calc(100% / 3 - 30px);
   margin-top: var(--card-list-gap);
   margin-right: var(--card-list-gap);
